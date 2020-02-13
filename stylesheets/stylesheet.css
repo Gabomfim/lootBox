@@ -1,0 +1,65 @@
+body{
+    background-color: #121F37;
+}
+
+#container{
+    width: 100vw;
+    padding: calc(50vh - 124px) 0;
+}
+
+#chest{
+    margin: 0 auto;
+    width: 241px;
+    height: 248px;
+    text-align: center;
+}
+
+#chest:hover::before{
+    position: absolute;
+    display: inline-block;
+    margin-top: -30px;
+    margin-left: -200px;
+    z-index: 2;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.5em;
+    color: #000;
+    background-color:#fff;
+    border: solid #000 5px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    outline: none;
+    content: "Click to open the chest!";
+}
+
+#loot-button{
+    display: block;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: 600;
+    border: solid black 5px;
+    background-color: yellow;
+    margin: 30px auto;
+    border-radius: 15px;
+    width: 160px;
+    height: 60px;
+}
+
+.weapon{
+    padding: 10% 0;
+    font-size: 5em;
+}
+
+.rarity{
+    font-size: 2em;
+    color: purple;
+}
+
+.image{
+    object-fit: scale-down;
+    object-position: center bottom;
+    height: 248px;
+    width: 241px;
+}
